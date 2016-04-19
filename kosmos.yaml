@@ -1,5 +1,11 @@
 software: 
-  - nginx-1.9.9
-  - php-5.5.9
+  - nginx
+  - php-5.6
 
 root: public
+
+php:
+  modules:
+    - mcrypt
+    - mysql
+    - curl
